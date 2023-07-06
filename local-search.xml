@@ -4,6 +4,35 @@
   
   
   <entry>
+    <title>持续学习+强化学习+云边端</title>
+    <link href="/2023/07/06/%E6%8C%81%E7%BB%AD%E5%AD%A6%E4%B9%A0%E5%92%8C%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E7%9A%84%E9%9A%8F%E6%89%8B%E4%B8%80%E8%AE%B0/"/>
+    <url>/2023/07/06/%E6%8C%81%E7%BB%AD%E5%AD%A6%E4%B9%A0%E5%92%8C%E5%BC%BA%E5%8C%96%E5%AD%A6%E4%B9%A0%E7%9A%84%E9%9A%8F%E6%89%8B%E4%B8%80%E8%AE%B0/</url>
+    
+    <content type="html"><![CDATA[<h3 id="持续学习的应用场景"><a href="#持续学习的应用场景" class="headerlink" title="持续学习的应用场景"></a>持续学习的应用场景</h3><p>持续学习用于流数据的处理，可以用于边缘计算，云计算场景：</p><ul><li>Edge<ul><li>嵌入式系统和机器人：+隐私、+效率、+快速适应、+在边缘、-互联网连接（例如自动驾驶汽车、机器人手臂&#x2F;手）</li></ul></li><li>Cloud<ul><li>将持续学习用于AutoML 系统：+可扩展性、+效率、+快速适应、-能源消耗（例如推荐系统）</li></ul></li><li>Continue Edge-Cloud<ul><li>无处不在的人工智能系统：高效通信、流畅和动态计算</li><li>神经网络补丁：+安全补丁，+公平性补丁，+快速更新</li><li>持续分布式学习：在联邦学习系统中增加持续学习模块</li></ul></li></ul><h3 id="持续学习的挑战性问题与总结thinking"><a href="#持续学习的挑战性问题与总结thinking" class="headerlink" title="持续学习的挑战性问题与总结thinking"></a>持续学习的挑战性问题与总结thinking</h3><blockquote><ul><li>有可能持续地学习一个鲁棒的深度表示吗</li><li>现在提出的持续学习场景和评估指标是足够的吗</li><li>在持续学习中，什么程度的监督信息是符合实际的</li><li>如何知道哪些信息是要遗忘的，哪些是需要记住的</li><li>持续学习和概念漂移的关系是什么</li><li>计算和存储哪个更重要</li><li>序列学习和持续学习的关系是什么</li><li>整合能力是人类智能中的一个核心的部分：CL系统可在这方面有何种可期待的突破</li><li>系统的自我评估：当仅有未标签数据时，如何衡量模型精度</li></ul></blockquote><ul><li>持续学习现在面对的主要问题除了灾难性遗忘还有什么呢？</li><li>持续学习用于强化学习真的可以提高它的稳定性吗？</li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>学习随笔</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>云边端协同</tag>
+      
+      <tag>持续学习</tag>
+      
+      <tag>强化学习</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>《Multiuser Computation Offloading and Resource Allocation for Cloud–Edge Heterogeneous Network》论文阅读笔记</title>
     <link href="/2023/04/12/Multiuser%20Computation%20Offloading%20and%20Resource%20Allocation%20for%20Cloud%E2%80%93Edge%20Heterogeneous%20Network%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/"/>
     <url>/2023/04/12/Multiuser%20Computation%20Offloading%20and%20Resource%20Allocation%20for%20Cloud%E2%80%93Edge%20Heterogeneous%20Network%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/</url>
