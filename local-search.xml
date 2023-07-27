@@ -33,6 +33,35 @@
   
   
   <entry>
+    <title>用于数据库的机器学习方法</title>
+    <link href="/2023/07/06/%E7%94%A8%E4%BA%8E%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/"/>
+    <url>/2023/07/06/%E7%94%A8%E4%BA%8E%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/</url>
+    
+    <content type="html"><![CDATA[<h1 id="参考论文"><a href="#参考论文" class="headerlink" title="参考论文"></a>参考论文</h1><p>参考论文为2021VLDB的tutorial-paper 《Machine Learning for Databases》 <a href="http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/vldb21-tutorial-paper.pdf">文章链接</a></p><h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><p>目前已经提出了机器学习技术来优化数据库。例如，传统的经验数据库优化技术(如成本估算、连接顺序选择、旋钮调优、索引和视图顾问)无法满足大规模数据库实例、各种应用和多样化用户的高性能需求，特别是在云上。幸运的是，基于机器学习的技术可以通过明智地选择优化策略来缓解这个问题。在本教程中，我们将数据库任务分为三个典型问题，可以通过不同的机器学习模型进行优化，包括np困难问题(例如，旋钮空间探索，索引&#x2F;视图选择，离线优化的分区键推荐;查询重写、联机优化的连接顺序选择)、回归问题(例如，成本&#x2F;基数估计、索引&#x2F;视图收益估计、查询延迟预测)和预测问题(例如，查询工作负载预测)。我们回顾了现有的基于机器学习的技术来解决这些问题，并提出了研究挑战。</p><h2 id="补充信息"><a href="#补充信息" class="headerlink" title="补充信息"></a>补充信息</h2><h3 id="关键词解释"><a href="#关键词解释" class="headerlink" title="关键词解释"></a>关键词解释</h3><ul><li>**成本估算(cost estimation)**：成本估算（开销估算）是数据库系统评价一个访问计划优化好坏的标准。对于每一个生成的访问计划，优化器都必须根据相关统计信息（statistics）对其成本进行评估。成本估算的主要指标是CPU时间和I&#x2F;O数量。另外计算内存也是一个重要指标，不过这个指标的各个参数在数据库系统初始化时已经设定完成了，优化器并不能对这种硬性参数产生什么影响。所以可以将成本简化为CPU成本+I&#x2F;O成本。<br><img src="D:\XJiaoLiGithubBlog\XJiaoLiGithubBlogHexo\source_images\cost-estimation.png" alt="cost estimations示意图"></li><li>**连接顺序选择(join order selection)**：</li><li>**旋钮调优(knob tuning)**：</li><li>**索引和视图顾问(index and view advisor)**：</li><li>**旋钮空间探索(knob space exploration)**：</li><li>**索引&#x2F;视图选择(index&#x2F;view selection)**：</li><li>**离线优化的分区键推荐(partition-key recommendation for offline optimization)**：</li><li>**查询重写(query rewrite)**：</li><li>**联机优化的连接顺序选择(join order selection for online optimization)**：</li><li>**成本&#x2F;基数估计(cost&#x2F;cardinality estimation)**：</li><li>**索引&#x2F;视图收益估计(index&#x2F;view benefit estimation)**：</li><li>**查询延迟预测(query latency prediction)**：</li><li>**查询工作负载预测(query workload prediction)**：</li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>论文翻译</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>强化学习</tag>
+      
+      <tag>AI4DB</tag>
+      
+      <tag>机器学习</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>《Multiuser Computation Offloading and Resource Allocation for Cloud–Edge Heterogeneous Network》论文阅读笔记</title>
     <link href="/2023/04/12/Multiuser%20Computation%20Offloading%20and%20Resource%20Allocation%20for%20Cloud%E2%80%93Edge%20Heterogeneous%20Network%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/"/>
     <url>/2023/04/12/Multiuser%20Computation%20Offloading%20and%20Resource%20Allocation%20for%20Cloud%E2%80%93Edge%20Heterogeneous%20Network%E8%AE%BA%E6%96%87%E7%AC%94%E8%AE%B0/</url>
