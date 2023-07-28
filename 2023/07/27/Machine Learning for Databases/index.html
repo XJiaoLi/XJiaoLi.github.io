@@ -25,7 +25,7 @@
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://xjiaoli.github.io/2023/07/27/Machine%20Learning%20for%20Databases/cost-estimation.png">
 <meta property="article:published_time" content="2023-07-27T02:30:29.000Z">
-<meta property="article:modified_time" content="2023-07-28T03:59:10.974Z">
+<meta property="article:modified_time" content="2023-07-28T04:02:43.284Z">
 <meta property="article:author" content="XueJiao Li">
 <meta property="article:tag" content="强化学习">
 <meta property="article:tag" content="AI4DB">
@@ -281,7 +281,11 @@
                 <h1 id="参考论文"><a href="#参考论文" class="headerlink" title="参考论文"></a>参考论文</h1><p>参考论文为2021VLDB的tutorial-paper 《Machine Learning for Databases》 <a target="_blank" rel="noopener" href="http://dbgroup.cs.tsinghua.edu.cn/ligl/papers/vldb21-tutorial-paper.pdf">文章链接</a></p>
 <h1 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h1><h2 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h2><p>目前已经提出了机器学习技术来优化数据库。例如，传统的经验数据库优化技术(如成本估算、连接顺序选择、旋钮调优、索引和视图顾问)无法满足大规模数据库实例、各种应用和多样化用户的高性能需求，特别是在云上。幸运的是，基于机器学习的技术可以通过明智地选择优化策略来缓解这个问题。在本教程中，我们将数据库任务分为三个典型问题，可以通过不同的机器学习模型进行优化，包括np困难问题(例如，旋钮空间探索，索引&#x2F;视图选择，离线优化的分区键推荐;查询重写、联机优化的连接顺序选择)、回归问题(例如，成本&#x2F;基数估计、索引&#x2F;视图收益估计、查询延迟预测)和预测问题(例如，查询工作负载预测)。我们回顾了现有的基于机器学习的技术来解决这些问题，并提出了研究挑战。</p>
 <h2 id="补充信息"><a href="#补充信息" class="headerlink" title="补充信息"></a>补充信息</h2><h3 id="关键词解释"><a href="#关键词解释" class="headerlink" title="关键词解释"></a>关键词解释</h3><ul>
-<li>成本估算(cost estimation)：成本估算（开销估算）是数据库系统评价一个访问计划优化好坏的标准。对于每一个生成的访问计划，优化器都必须根据相关统计信息（statistics）对其成本进行评估。成本估算的主要指标是CPU时间和I&#x2F;O数量。另外计算内存也是一个重要指标，不过这个指标的各个参数在数据库系统初始化时已经设定完成了，优化器并不能对这种硬性参数产生什么影响。所以可以将成本简化为CPU成本+I&#x2F;O成本。<img src="/2023/07/27/Machine%20Learning%20for%20Databases/cost-estimation.png" srcset="/img/loading.gif" lazyload></li>
+<li>成本估算(cost estimation)：成本估算（开销估算）是数据库系统评价一个访问计划优化好坏的标准。对于每一个生成的访问计划，优化器都必须根据相关统计信息（statistics）对其成本进行评估。成本估算的主要指标是CPU时间和I&#x2F;O数量。另外计算内存也是一个重要指标，不过这个指标的各个参数在数据库系统初始化时已经设定完成了，优化器并不能对这种硬性参数产生什么影响。所以可以将成本简化为CPU成本+I&#x2F;O成本。</li>
+</ul>
+<img src="/2023/07/27/Machine%20Learning%20for%20Databases/cost-estimation.png" srcset="/img/loading.gif" lazyload>
+
+<ul>
 <li>连接顺序选择(join order selection)：</li>
 <li>旋钮调优(knob tuning)：</li>
 <li>索引和视图顾问(index and view advisor)：</li>
